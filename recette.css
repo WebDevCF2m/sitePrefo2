@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'Agbalumo';
+    font-weight: 400;
+	src: url('fonts/Agbalumo-Regular.ttf') format('truetype');
+}
+
+body {
+    /*background-color: #EEEEEE;*/
+    /* autre manière de définir la couleur, avec la fonction rgb() */
+    background-color: rgb(120,150,100);
+    background-image: url('images/3668842_fork_food_kitchen_icon.png');
+    background-repeat: repeat-y;
+    background-position: top right;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 64px;
+}
+
+h3 {
+    color: red;
+    font-style: italic;
+}
+
+
+
+
+
+h2 {
+    color: blue;
+    font-family: 'Agbalumo';
+}
+
+a {
+    color: black;
+    text-decoration: none;      /* pour enlever le soulignement */
+}
+
+a:hover {
+    color: yellow;
+    /*text-decoration: underline wavy red 5px;*/
+    text-decoration: underline;     /* pour ajouter le soulignement */
+}
+
+img {
+    /* opacité - 0=transparence, 1=opaque, 0.5=50% de transparence */
+    opacity: 0.5;
+}
+
+#justify {
+    text-align: justify;
+}
